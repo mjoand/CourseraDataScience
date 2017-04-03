@@ -6,7 +6,6 @@ complete<-function(directory,id=1:332){
   ###returns a dataframe where id is the monitor ID number and nobs the number of
   ###complete observations
 
-directory<-"specdata"
 setwd(file.path(getwd(),directory))
 
 ###Creating a vector of file names
